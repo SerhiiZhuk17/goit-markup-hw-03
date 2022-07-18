@@ -53,10 +53,10 @@ body {
     padding-right: 15px;
 
 }
-
-.max-width {
-    
+.section {
+    padding: 94px 0;
 }
+
 
 /*==============HEADER===========*/
 
@@ -176,6 +176,7 @@ body {
 }
 
 .hero {
+    padding: 200px 0;
     margin: 0 auto;
     max-width: 1600px;
 background-color: #2F303A;
@@ -185,7 +186,7 @@ text-align: center;
 
 .main-title {
     margin: 0 auto;
-    padding-top: 200px;
+
     margin-bottom: 30px;
     max-width: 650px;
 
@@ -199,7 +200,7 @@ text-align: center;
 }
 
 .order-button{
-    margin-bottom: 200px;
+
     padding: 10px 32px;
     background-color:var(--accent-color);
     font-weight: 700;
@@ -224,7 +225,6 @@ text-align: center;
 .main-features-list {
     display: flex;
     justify-content: space-between;
-    padding-top: 94px;
 
 }
 
@@ -271,10 +271,6 @@ text-align: center;
     letter-spacing: 0.03em;
 
     color: var(--primary-text-color-light-theme);
-}
-
-.our-job {
-    padding-top: 94px;
 }
 
 .photo-list {
@@ -365,7 +361,7 @@ text-align: center;
 
 
 .main-portfolio-filters {
-    margin-top: 94px;
+    padding: 94px 0px;
 }
 
 .main-button-list {
@@ -415,7 +411,6 @@ text-align: center;
 }
 
 .portfolio-list {
-    margin-bottom: 94px;
     display: flex;
     flex-wrap: wrap;
 
@@ -438,9 +433,12 @@ text-align: center;
 .portf-items:not(:nth-child(3n)) {
     margin-right: 30px;}
 
+.portf-items-styles {
+    padding: 20px 24px;    
+}    
 
 .portf-items-name {
-    padding: 20px 24px 4px;
+margin-bottom:  4px;
     font-weight: 700;
         font-size: 18px;
         line-height: 2;    
@@ -449,7 +447,6 @@ text-align: center;
 }
 
 .portf-items-description {
-    padding: 0px 24px 20px;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.87;    
@@ -467,11 +464,12 @@ text-align: center;
 
 .page-footer {
     background: #2F303A;
+    padding: 60px 0px;
 }
 
 .footer-logo {
     display:inline-block;
-    padding-top: 60px;
+
     margin-bottom: 20px;
 
     font-family: var(--secondary-font);
@@ -499,7 +497,7 @@ text-align: center;
 }
 
 .footer-adress-list {
-    padding-bottom: 60px;
+
 }
 
 .footer-contact-mail,
