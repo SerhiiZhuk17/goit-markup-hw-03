@@ -178,8 +178,9 @@ body {
     padding: 200px 0;
     margin: 0 auto;
     max-width: 1600px;
-background-color: #2F303A;
+background-color: rgba(47, 48, 58, 0.4);;
 text-align: center;
+background-image: url(/images/);
 
 }
 
@@ -230,6 +231,15 @@ text-align: center;
 .features-list {
     min-height: 100px;
     max-width: 270px;
+}
+
+.features-list::before {
+    margin-bottom: 10px;
+    display: block;
+    outline: 1px solid red;
+    content: "";
+    background-color: #F5F4FA;
+    height: 120px;
 }
 
 .features-list:not(:last-child) {
